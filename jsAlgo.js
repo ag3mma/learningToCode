@@ -14,7 +14,7 @@ function harmlessRansomNote(noteText, magazineText) {
   var magazineObj = {};
  
   magazineArr.forEach(funtion(word){
-	//create the magazine object and populate it by the occurrences of the words  
+	//create the magazine object and populate it by the occurrences of the words // 
   	if(!magazineObj[word]) magazineObj[word] = 0;
 	magazineObj[word]++;
   });	
