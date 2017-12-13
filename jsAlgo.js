@@ -8,7 +8,7 @@ function fizzBuzz(num) {
 }
 
 function harmlessRansomNote(noteText, magazineText) {
-  //Hypotesis: no punctuation and all lowercase
+  //Hypotesis: no punctuation and all strings lowercase
   var noteArr = noteText.split(' ');
   var magazineArr = magazineText.split(' ');
   var magazineObj = {};
