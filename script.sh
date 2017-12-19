@@ -106,4 +106,8 @@ echo ARGUMENT #the variable inside a loop is local to function. This only print 
 # best practice to have function variables local.
 # my_function() {
 #    local MY_LOCAL_VAR=2
+#       return 0;
 # }
+# Functions, like shell scripts, return the exit status of the last command issued,
+# otherwise can be used the syntax 'return EXIT_STATUS' to return a specific value,
+# and the '$?' syntax after the fucntion call to check it. (exit status is integer between 0-255)
