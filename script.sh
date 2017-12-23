@@ -24,9 +24,9 @@ then
 
 # or
 
-# elif
-# [commands]...
+# elif [ conditional expression ]
 # then
+# [commands]...
 # else
 # [commands]...
 fi
